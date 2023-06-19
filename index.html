@@ -11,31 +11,35 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="header">
+<header class="header border">
     <nav>
         <a href="#">Home</a>
         <a href="Contact.html">Contact</a>
     </nav>
     <table>
-        <td><img src="avatar.jpg" alt="My foto" style="width: 200px"></td>
-        <td><h1>Roma Puschkarev</h1>
-            <p><em>Я Frontend <strong>Developer</strong></em></p></td>
+        <th><img class="img border" src="avatar.jpg" alt="My foto"></th>
+
+        <th class="left">
+            <h1 class="title">Roma Puschkarev</h1>
+            <p><em>Я Frontend <strong>Developer</strong></em></p>
+            <p class="headerText"><em>Основная информация обо мне </em></p>
+            <div>Мои социальные сети </div>
+            <div><span><a href="#">Instagram</a></span>|<span><a href="#">Telegram</a></span></div>
+        </th>
     </table>
-
-
 </header>
-<hr>
-<main>
-    <section>
+
+<main class="main">
+    <section class="hobby border">
         <h2>Мои Хобби</h2>
-        <ul>
+        <ul class="ul">
             <li>Travel</li>
             <li>Games</li>
             <li>Comics</li>
         </ul>
     </section>
-    <hr>
-    <section>
+
+    <section class="social border">
         <h2>Социальныые сети</h2>
         <ol>
 
@@ -44,7 +48,7 @@
             <li><a href="#">You Tube</a></li>
         </ol>
     </section>
-    <hr>
+
     <section>
         <h2>Опыт работы</h2>
         <table border="1">
@@ -72,7 +76,7 @@
             </tfoot>
         </table>
     </section>
-    <hr>
+
     <section>
         <form>
             <label for="name">text right</label>
@@ -86,8 +90,7 @@
             <input type="submit">
 
 
-
-            <button id="submit"   type="submit">Otpravit</button>
+            <button id="submit" type="submit">Otpravit</button>
         </form>
     </section>
 </main>
